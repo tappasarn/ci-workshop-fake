@@ -1,0 +1,15 @@
+# macOS file for storing costomized attributes
+.DS_Store
+
+# Intellij config
+.idea/
+
+# Artifacts
+build/
+out/
+
+# Eclipse Buildship: Gradle integration for the Eclipse IDE
+.gradle
+.project
+.classpath
+.settings
