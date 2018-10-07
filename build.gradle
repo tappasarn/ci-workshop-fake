@@ -12,6 +12,10 @@ plugins {
 
     // Apply the application plugin to add support for building an application
     id 'application'
+
+    // Add the SonarQube plugin here
+    // This this what you copied from the command SonarCloud's website had provided to you.
+    id "org.sonarqube" version "2.6"
 }
 
 // Define the main class for the application
