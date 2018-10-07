@@ -16,6 +16,9 @@ plugins {
     // Add the SonarQube plugin here
     // This this what you copied from the command SonarCloud's website had provided to you.
     id "org.sonarqube" version "2.6"
+
+    // Add this line
+    id "jacoco"
 }
 
 // Define the main class for the application
