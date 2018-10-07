@@ -8,6 +8,11 @@ public class App {
         String amount = args[0];
 
         CurrencyFormatter currencyFormatter = new CurrencyFormatter();
+        
+        int target = -5;
+        int num = 3;
+
+        target =+ num; // Noncompliant; target = 3
 
         System.out.println(currencyFormatter.format(amount));
     }
